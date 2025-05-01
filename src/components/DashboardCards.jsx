@@ -5,7 +5,7 @@ export default function DashboardCards() {
   return (
     <div className="grid md:grid-cols-2 gap-8 mt-8">
       {/* Card 1 - Task Manager */}
-      <Link to="/Tasks">
+      <Link to="/task-manager">
         <div className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow duration-200">
           <div className="flex items-center justify-center flex-col text-center">
             <CheckSquare className="text-indigo-500 w-16 h-16 mb-4" />
